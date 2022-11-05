@@ -19,6 +19,3 @@ const ChangeQuantity = ({quantity, setQuantity}) => {
 }
 
 export default ChangeQuantity;
-
-// этот компонент только для изменения количества товара
-// его мы интегрируем в компонент Dish
