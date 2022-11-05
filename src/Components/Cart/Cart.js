@@ -15,10 +15,3 @@ const Cart = () => {
 
 export default Cart;
 
-// соединяем этот компонент с компонентом cartSlice через ХУК useSelector
-// const cartItems отвечает за то, что у нас попадает в корзину
-// через метод .map передадим каждый товар в комонент <CartItem />
-
-// {cartItems.map( (element, index) => (<CartItem cartProp={element} key={index}/>) )}
-// здесь cartProp который нам нужен для работы с корзиной, очень важный проп!!!!!!
-
