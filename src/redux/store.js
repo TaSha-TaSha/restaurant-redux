@@ -8,6 +8,3 @@ export const store = configureStore( {
         cart
     }
 });
-
-// store.js нам нужен, чтобы соединить App.js с другими компонентами
-// reduser: dishes и cart берем из dishesSlice и cartSlice
