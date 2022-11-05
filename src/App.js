@@ -10,7 +10,7 @@ function App() {
       <Cart />
     </div>
     <div className='block'>
-    <Dishes />
+      <Dishes />
     </div>
     </div>);
 }
