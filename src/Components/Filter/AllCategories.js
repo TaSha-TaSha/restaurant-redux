@@ -10,5 +10,3 @@ const AllCategories = () => {
 
 export default AllCategories;
 
-
-// здесь используем метод map, чтобы отобразить все categories в компоненте filter, через пропс
