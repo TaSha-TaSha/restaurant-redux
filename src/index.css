@@ -70,3 +70,8 @@ button {
   font-family: 'Poppins', sans-serif;
   margin: 10px;
 }
+
+.selectedDish {
+  font-size: 25px;
+  text-decoration: underline;
+}
