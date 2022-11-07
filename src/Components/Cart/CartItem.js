@@ -7,6 +7,7 @@ const CartItem = ({cartProp}) => {
     const dispatch = useDispatch();
 
     return(<div>
+        <p className='selectedDish'>{dishesFind.name}</p>
         <p>{cartProp.quantity} portion(s)</p>
         <p>Price: ${dishesFind.price * cartProp.quantity}</p>
         <span onClick={ () => dispatch(removeItemFromCart( {cartPropId: cartProp.id} )) }>
